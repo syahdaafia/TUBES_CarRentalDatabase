@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="A2E7FE1B-F20F-66C4-A1AE-6273B1837C3D">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-21 05:29:09 UTC</createdTime>
+<ownerDesignName>penyewaan mobil logical</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

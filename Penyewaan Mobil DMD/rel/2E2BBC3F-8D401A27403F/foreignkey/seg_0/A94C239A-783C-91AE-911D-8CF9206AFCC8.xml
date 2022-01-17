@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A94C239A-783C-91AE-911D-8CF9206AFCC8" containerWithKeyObject="65EE7DC2-E06E-967B-225F-4197C34CB13B" localFKIndex="46352374-33F3-4FC6-1E42-2520B5ABA0EC" name="penyewaan_mobil_FK">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>EF522F09-3532-DB1C-40A4-1912D4522556</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<referredTableLongName>mobil</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1F5ACAAE-ABD0-84E5-AD39-51C6D593FDAE</referredTableID>
+<keyObject>FD0BFC7D-E4EA-EC1D-D268-A76A42A5EEE2</keyObject>
+<referredKeyID>FD0BFC7D-E4EA-EC1D-D268-A76A42A5EEE2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_mobil</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

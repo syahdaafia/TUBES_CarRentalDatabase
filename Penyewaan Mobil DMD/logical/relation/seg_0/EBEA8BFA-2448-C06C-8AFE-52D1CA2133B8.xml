@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="EBEA8BFA-2448-C06C-8AFE-52D1CA2133B8">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-21 10:08:31 UTC</createdTime>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<engineerTo>
+<item key="2E2BBC3F-24DA-E7C0-B80C-8D401A27403F" value="true"/>
+</engineerTo>
+<sourcePk>61364012-4D38-628C-00E7-A7537FC935D2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8062602F-C950-D81F-C718-AF7DA54E5F8F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>15B47C86-AC18-5891-6913-D93972F1152A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68390621-EE78-D41B-4675-6A47458FB51E" name="pengguna">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>8062602F-C950-D81F-C718-AF7DA54E5F8F</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pengguna" id="49C82263-6C1C-785A-E988-1F8A740DF03E">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>9393F458-68EE-79C1-F201-250155058A77</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama" id="5DB4BE60-CDFB-2FED-64E3-4A4E32B3E4CA">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>16B732A4-5B39-CA48-4777-D115DD33A58C</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="2B5B4662-F1E9-81C9-15DB-75570CBA8D82">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>E446E06B-B040-CEB2-C7AF-D09225275137</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="ED8FA51D-8FF0-19C4-A709-DC42E9F0DA97">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>925018B6-1B33-1014-ABBE-3B1EB695DD59</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_ktp" id="5ADE19DE-6058-882D-DA92-B4C95C1251F1">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>808C4D96-805E-C84E-BAB1-208A36795168</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_sim" id="DE818B9E-44C6-8182-9444-D0784D84057F">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>5E6BB8D5-74FC-42B6-E9E3-93D392275E11</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ttl" id="042CD022-482C-10D0-3643-A1187CF31333">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>F7910D91-546D-A2AF-6F32-B9CC9936EA97</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat" id="47618867-436D-92F3-CEE1-BD4C3B4324C4">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>3C00945A-941C-9FD6-B8C9-BBB9F1E995DD</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_telp" id="B8D7ECA0-E41F-23A9-EAA1-1F648CFD76FB">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>154A5840-623B-D9E9-E7C5-20B72403816D</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="BD38CA5B-E1DE-AA4B-DB9D-B9010E147AE4">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>B2834663-DB3D-E8D3-8624-8CEA55A0B99B</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="F7D7B70B-82F5-424D-F5D6-D1D8206C9284">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>3000EDF0-10EA-BE3C-D990-D6884F43F733</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C62ABC2-D8C6-FB6E-FD6C-7C225C25CEA7" name="pengguna_PK">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>61364012-4D38-628C-00E7-A7537FC935D2</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49C82263-6C1C-785A-E988-1F8A740DF03E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A3DB4AF-6825-9655-2A3E-33B06056FC9D" name="pengguna_no_ktp_UN">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>5D1EAB66-E695-3E38-EF75-DB11595CFBAB</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ADE19DE-6058-882D-DA92-B4C95C1251F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E66120C2-3DD0-7625-A3C6-A8C5C9A07CE5" name="pengguna_no_sim_UN">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>E48F579A-F476-EA00-D708-9D85DA2F2E55</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE818B9E-44C6-8182-9444-D0784D84057F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50FA60AC-F945-EF80-8CDC-6070918ADE93" name="pengguna_email_UN">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-27 02:30:35 UTC</createdTime>
+<generatorID>2ECAE0D1-F6B6-7BFE-58C6-CF0F4385FFC9</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B5B4662-F1E9-81C9-15DB-75570CBA8D82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

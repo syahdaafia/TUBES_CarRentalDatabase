@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="15B47C86-AC18-5891-6913-D93972F1152A" name="penyewaan">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-21 06:19:07 UTC</createdTime>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<engineerTo>
+<item key="2E2BBC3F-24DA-E7C0-B80C-8D401A27403F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sewa" id="A581FA94-DE41-27FD-172F-E44F8E593C4F">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-21 06:19:13 UTC</createdTime>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<engineerTo>
+<item key="2E2BBC3F-24DA-E7C0-B80C-8D401A27403F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start_date" id="52C204D0-86E3-1B90-E46B-D0618FADDD73">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-21 06:19:23 UTC</createdTime>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<engineerTo>
+<item key="2E2BBC3F-24DA-E7C0-B80C-8D401A27403F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_date" id="2CB170A1-330A-3611-885A-49DD16141FF0">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-21 06:19:44 UTC</createdTime>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<engineerTo>
+<item key="2E2BBC3F-24DA-E7C0-B80C-8D401A27403F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_bayar" id="C525454E-795A-3C17-87CC-23B71777ABBF">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-21 06:20:01 UTC</createdTime>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<engineerTo>
+<item key="2E2BBC3F-24DA-E7C0-B80C-8D401A27403F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="metode_bayar" id="7CB4E6AA-00B1-951B-AE92-DED0588DA7DA">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-21 13:24:52 UTC</createdTime>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<engineerTo>
+<item key="2E2BBC3F-24DA-E7C0-B80C-8D401A27403F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="denda" id="B671BDA3-56B3-328D-2A10-9A6D7537CE67">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-21 06:20:58 UTC</createdTime>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<engineerTo>
+<item key="2E2BBC3F-24DA-E7C0-B80C-8D401A27403F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="keterangan" id="3E8C5FFF-FD58-5AD7-9687-86836F6497BF">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-25 17:20:42 UTC</createdTime>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<engineerTo>
+<item key="2E2BBC3F-24DA-E7C0-B80C-8D401A27403F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_kembali" id="F3672568-1DCC-3AB2-A82E-3D048F193F6B">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-25 17:20:54 UTC</createdTime>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<engineerTo>
+<item key="2E2BBC3F-24DA-E7C0-B80C-8D401A27403F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_mobil" id="94C02E14-B292-D5BF-6819-76C1D2C9BDBA">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-21 06:27:52 UTC</createdTime>
+<generatorID>EF522F09-3532-DB1C-40A4-1912D4522556</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<engineerTo>
+<item key="2E2BBC3F-24DA-E7C0-B80C-8D401A27403F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>41905993-26F3-51A3-D56F-0AD576AF9CDC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pengguna" id="D182297A-2986-8B1C-9BF4-CDA2AB820459">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-21 10:08:31 UTC</createdTime>
+<generatorID>EBEA8BFA-2448-C06C-8AFE-52D1CA2133B8</generatorID>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<engineerTo>
+<item key="2E2BBC3F-24DA-E7C0-B80C-8D401A27403F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9393F458-68EE-79C1-F201-250155058A77</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40E03B02-0D9D-604F-C046-AFB3A3715E4B" name="penyewaan PK">
+<createdBy>ACER</createdBy>
+<createdTime>2021-12-21 06:23:26 UTC</createdTime>
+<ownerDesignName>Penyewaan Mobil DMD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2E2BBC3F-24DA-E7C0-B80C-8D401A27403F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A581FA94-DE41-27FD-172F-E44F8E593C4F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

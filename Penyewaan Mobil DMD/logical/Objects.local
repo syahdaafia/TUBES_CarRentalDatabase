@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="9DE50123-EAA0-D8F5-32C2-1CC75B9C5E6D" name="mobil" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="66ABB1DD-0B4F-51CA-0BB9-B931AAF168C8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="8062602F-C950-D81F-C718-AF7DA54E5F8F" name="pengguna" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="66ABB1DD-0B4F-51CA-0BB9-B931AAF168C8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="15B47C86-AC18-5891-6913-D93972F1152A" name="penyewaan" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="66ABB1DD-0B4F-51CA-0BB9-B931AAF168C8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="EF522F09-3532-DB1C-40A4-1912D4522556" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="66ABB1DD-0B4F-51CA-0BB9-B931AAF168C8" propertySourceId="9DE50123-EAA0-D8F5-32C2-1CC75B9C5E6D" propertyTargetId="15B47C86-AC18-5891-6913-D93972F1152A"/>
+   <object objectType="Relation" objectID="EBEA8BFA-2448-C06C-8AFE-52D1CA2133B8" name="Relation_8" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="66ABB1DD-0B4F-51CA-0BB9-B931AAF168C8" propertySourceId="8062602F-C950-D81F-C718-AF7DA54E5F8F" propertyTargetId="15B47C86-AC18-5891-6913-D93972F1152A"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
